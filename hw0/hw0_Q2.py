@@ -2,6 +2,7 @@ from PIL  import Image
 import numpy as np
 import os
 import scipy
+import math
 os.chdir(r'C:\Users\M10609309\PYTHON_ALL\ML2017FALL_HomeWork\hw0') #我的位置起始有誤，因此才重新設定
 im=Image.open('rainbow.png')
 im_arry=np.array(im)
